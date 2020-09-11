@@ -5,7 +5,8 @@ Gem::Specification.new do |spec|
   spec.version      = File.read("VERSION.semver").chomp
   spec.author       = "Cyril Kato"
   spec.email        = "contact@cyril.email"
-  spec.summary      = "A computerized database that contains precalculated exhaustive pseudo-legal moves of Shogi positions."
+  spec.summary      = "A computerized database that contains precalculated " \
+                      "exhaustive pseudo-legal moves of Shogi positions."
   spec.description  = spec.summary
   spec.homepage     = "https://developer.sashite.com/specs/"
   spec.license      = "MIT"
