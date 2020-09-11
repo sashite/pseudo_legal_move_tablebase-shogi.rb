@@ -25,4 +25,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rubocop-thread_safety"
   spec.add_development_dependency "simplecov"
   spec.add_development_dependency "yard"
+
+  # rubocop:disable Gemspec/RequiredRubyVersion
+  spec.required_ruby_version = ">= 1.8.6"
+  # rubocop:enable Gemspec/RequiredRubyVersion
 end
