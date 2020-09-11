@@ -4,6 +4,7 @@ require:
 
 AllCops:
   Exclude:
+    - lib/pseudo_legal_move_tablebase/shogi.rb
     - test.rb
 
   NewCops: enable
