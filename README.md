@@ -1,4 +1,4 @@
-# PseudoLegalMoveTablebase::SHOGI.rb
+# PseudoLegalMoveTablebase::Shogi.rb
 
 [![Build Status](https://travis-ci.org/sashite/pseudo_legal_move_tablebase-shogi.rb.svg?branch=master)](https://travis-ci.org/sashite/pseudo_legal_move_tablebase-shogi.rb)
 [![Gem Version](https://badge.fury.io/rb/pseudo_legal_move_tablebase-shogi.svg)][gem]
@@ -26,7 +26,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-PseudoLegalMoveTablebase::SHOGI # => {"S:+B"=>{0=>[[{1=>:enemy}, [0, 1, ["S:+B"], true]], ...
+PseudoLegalMoveTablebase::Shogi::DB # => {"S:+B"=>{0=>[[{1=>:enemy}, [0, 1, ["S:+B"], true]], ...
 ```
 
 ## License
